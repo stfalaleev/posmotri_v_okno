@@ -60,11 +60,11 @@ ol {
 }
 
 .content {
+  width: 1140px;
+  margin: auto;
   display: flex;
   align-items: end;
   column-gap: 30px;
-  width: 1140px;
-  margin: auto;
 }
 
 
@@ -103,9 +103,9 @@ ol {
 }
 
 .search-form__label {
+  width: fit-content;
   display: flex;
   align-items: center;
-  width: fit-content;
   cursor: pointer;
 }
 
@@ -127,15 +127,15 @@ ol {
 
 .search-form__textfield {
   min-width: 228px;
+  padding: 2.5px 14px 2.5px 0;
   border-top: 1px solid #fff;
   border-right: 0;
   border-bottom: 1px solid #fff;
   border-left: 0;
-  padding: 2.5px 14px 2.5px 0;
-  color: rgba(255, 255, 255, 0.7);
   font-family: Fira Sans Condensed;
   font-weight: 400;
   font-size: 18px;
+  color: rgba(255, 255, 255, 0.7);
   line-height: normal;
   background: transparent;
   appearance: none;
@@ -157,12 +157,12 @@ ol {
 }
 
 .search-form__pseudo-checkbox {
-  position: relative;
-  display: flex;
-  flex-shrink: 0;
   width: 19px;
   height: 19px;
   margin-right: 5px;
+  position: relative;
+  display: flex;
+  flex-shrink: 0;
   border: 1px solid #fff;
 }
 
@@ -176,11 +176,11 @@ ol {
 }
 
 .search-form__pseudo-checkbox::before {
-  content: "";
-  display: none;
   width: 15px;
   height: 15px;
   margin: auto;
+  content: "";
+  display: none;
   background-color: #fff;
 }
 
@@ -190,11 +190,11 @@ ol {
 
 .title {
   margin-bottom: 26px;
-  color: #fff;
-  font-family: Oswald;
   font-weight: 700;
   font-size: 75px;
   line-height: 94%;
+  color: #fff;
+  font-family: Oswald;
   text-transform: uppercase;
 }
 
@@ -207,9 +207,9 @@ ol {
 }
 
 .content__list {
-  position: relative;
   height: 298px;
   padding: 3px;
+  position: relative;
   overflow-y: auto;
 }
 
@@ -276,14 +276,13 @@ ol {
   object-position: center;
 }
 
-
 .button {
-  border: 1px solid #fff;
   padding: 6px 73.5px;
   color: #fff;
   font-family: Fira Sans Condensed;
   font-weight: 700;
   font-size: 18px;
+  border: 1px solid #fff;
   line-height: normal;
   text-align: center;
   background: transparent;
