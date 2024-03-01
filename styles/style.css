@@ -8,16 +8,6 @@ html {
   block-size: 100%;
 }
 
-.page {
-  inline-size: 1200px;
-  block-size: 100%;
-  margin: auto;
-  color: #fff;
-  font-family: 'Fira Sans Condensed', sans-serif;
-  font-size: 18px;
-  background-color: #1b1919;
-}
-
 h1,
 h2,
 h3,
@@ -47,6 +37,16 @@ ol {
   white-space: nowrap;
 }
 
+.page { 
+  display: flex; 
+  margin: auto; 
+  color: #fff; 
+  font-family: "Fira Sans Condensed", sans-serif; 
+  font-size: 18px; 
+  background-color: #1b1919; 
+  inline-size: 1200px; 
+  block-size: 100%; 
+} 
 
 .content {
   width: 1140px;
