@@ -48,17 +48,6 @@ ol {
 }
 
 
-.page {
-  display: flex;
-  margin: auto;
-  color: #fff;
-  font-family: "Fira Sans Condensed", sans-serif;
-  font-size: 18px;
-  background-color: #1b1919;
-  inline-size: 1200px;
-  block-size: 100%;
-}
-
 .content {
   width: 1140px;
   margin: auto;
@@ -96,7 +85,7 @@ ol {
 .search-form__fieldset-title {
   margin-bottom: 5px;
   color: #fff;
-  font-family: Fira Sans Condensed;
+  font-family: 'Fira Sans Condensed', sans-serif;
   font-weight: 400;
   font-size: 18px;
   line-height: normal;
@@ -132,13 +121,14 @@ ol {
   border-right: 0;
   border-bottom: 1px solid #fff;
   border-left: 0;
-  font-family: Fira Sans Condensed;
+  font-family: 'Fira Sans Condensed', sans-serif;
   font-weight: 400;
   font-size: 18px;
-  color: rgba(255, 255, 255, 0.7);
+  color: #FFFFFF;
   line-height: normal;
   background: transparent;
   appearance: none;
+  cursor: text;
 }
 
 .search-form__textfield:focus {
@@ -160,7 +150,6 @@ ol {
   width: 19px;
   height: 19px;
   margin-right: 5px;
-  position: relative;
   display: flex;
   flex-shrink: 0;
   border: 1px solid #fff;
@@ -170,10 +159,6 @@ ol {
   display: block;
 }
 
-
-.search-form__checkbox:active + .search-form__pseudo-checkbox::before {
-  display: block;
-}
 
 .search-form__pseudo-checkbox::before {
   width: 15px;
@@ -279,7 +264,7 @@ ol {
 .button {
   padding: 6px 73.5px;
   color: #fff;
-  font-family: Fira Sans Condensed;
+  font-family: 'Fira Sans Condensed', sans-serif;
   font-weight: 700;
   font-size: 18px;
   border: 1px solid #fff;
